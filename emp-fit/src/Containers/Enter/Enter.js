@@ -25,7 +25,10 @@ const Enter = (props) => {
         <img src={enterIcon} alt="enter" className="enter__layout-image" />
         <p className="enter__layout-text">
           Improving the health and productivity of the poorest is one of the
-          best investmentyou can make in the future of the world. -by Bill Gates
+          best investment you can make in the future of the world.{" "}
+          <span>
+            <em>-by Bill Gates</em>
+          </span>
         </p>
         <GoogleLogin
           clientId="212435296658-v397hd2sip65sg09003p4lig5uqnivp8.apps.googleusercontent.com"

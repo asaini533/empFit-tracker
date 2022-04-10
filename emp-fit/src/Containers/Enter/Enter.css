@@ -22,11 +22,18 @@
 }
 
 .enter__layout-text {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1rem;
   text-align: center;
-  margin: 10px;
+  margin: 0 10px 20px 0;
   color: #fb641b;
+}
+
+.enter__layout-text span {
+  display: block;
+  margin: 10px 0 0 0;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .enter__layout-button {
