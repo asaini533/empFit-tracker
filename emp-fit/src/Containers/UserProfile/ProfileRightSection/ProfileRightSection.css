@@ -1,0 +1,52 @@
+.profileRightSection__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileRightSection__header-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+}
+
+.profileRightSection__header-title span {
+  color: #bdbdbd;
+}
+
+.profileRightSection__body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.profileRightSection__body-date {
+  margin: 25px 0;
+}
+
+.profileRightSection__body-date p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 11px;
+}
+
+.profileRightSection__body-date p span {
+  color: #212121;
+  font-weight: 500;
+}
+
+.profileRightSection__body-metrices {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.profileRightSection__body-positions {
+  flex-basis: 35%;
+}

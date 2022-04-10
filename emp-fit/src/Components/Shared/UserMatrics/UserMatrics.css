@@ -1,0 +1,41 @@
+.userMatrics__container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  flex-basis: 30%;
+}
+
+.userMatrics__icon-step {
+  font-size: 60px;
+  color: #dc2f02;
+}
+
+.userMatrics__icon-heart {
+  font-size: 60px;
+  color: #57cc99;
+}
+
+.userMatrics__icon-calory {
+  font-size: 60px;
+  color: #ff6b35;
+}
+
+.userMatrics__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.userMatrics__data {
+  color: #264653;
+  background: #f1f6f9;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+}

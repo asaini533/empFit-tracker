@@ -1,0 +1,35 @@
+.highlightedUser__container {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  border: 2px solid #57cc99;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.highlightedUser__trophy {
+  align-self: center;
+  color: #fb641b;
+  font-size: 2rem;
+}
+
+.highlightedUser__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.highlightedUser__details-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.highlightedUser__details-score {
+  color: #757575;
+}

@@ -1,0 +1,42 @@
+.otherUser__container {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.otherUser__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 65%;
+}
+
+.otherUser__details-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.otherUser__details-score {
+  color: #757575;
+}
+
+.otherUser__rank {
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.otherUser__rank-data {
+  background: #f9f1f7;
+  color: #59294f;
+  padding: 10px;
+  border-radius: 10px;
+}

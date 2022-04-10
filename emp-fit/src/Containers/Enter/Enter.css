@@ -1,0 +1,34 @@
+.enter__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 16px);
+}
+
+.enter__layout {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem 1rem;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 50px;
+}
+
+.enter__layout-image {
+  width: 90%;
+}
+
+.enter__layout-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px;
+  color: #fb641b;
+}
+
+.enter__layout-button {
+  margin: 10px;
+}

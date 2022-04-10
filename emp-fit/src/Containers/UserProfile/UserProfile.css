@@ -1,0 +1,24 @@
+.userProfile__container {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.userProfile__leftSection {
+  flex-basis: 23%;
+}
+
+.userProfile__rightSection {
+  flex-basis: 77%;
+  background: #f2f2f2;
+  height: 100vh;
+}
+
+/* .userProfile__leftSection-menu__dashboard:hover {
+  color: #264653;
+  background: #F2F2F2;
+} */
+
+.userProfile__rightSection {
+  padding: 2rem 3rem;
+}

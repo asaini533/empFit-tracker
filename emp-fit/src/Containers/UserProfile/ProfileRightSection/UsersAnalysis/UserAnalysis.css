@@ -1,0 +1,23 @@
+.usersAnalysis__previousMonth {
+  border-bottom: 1px solid #bdbdbd;
+  margin: 0 10px 10px 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.userAnalysis__heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.userAnalysis__heading-leaderboard {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 10px 0 17px;
+}
+
+.userAnalysis__leaderboard-container {
+  padding: 10px;
+  background: #fff;
+  border-radius: 15px;
+}

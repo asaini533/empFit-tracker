@@ -1,0 +1,56 @@
+.userDetails__container {
+  background-image: url("../../../../assets/images/profile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+}
+
+.userDetails__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userDetails__heading-myProfile {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.userDetails__heading-edit {
+  color: #fff;
+  font-size: 20px;
+}
+
+.userDetails__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+.css-6w89ng-MuiAvatar-root {
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.userDetails__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.userDetails__details-name {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.userDetails__end {
+  color: #fff;
+  margin: 22px auto;
+}
